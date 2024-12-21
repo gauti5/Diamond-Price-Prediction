@@ -15,3 +15,6 @@ logging.basicConfig(
     format="[%(asctime)s] %(lineno)d %(name)s - %(levelname)s - %(message)s",  #[2023-11-25 00:08:50,212] 24 root - INFO - Logging has started
     level=logging.INFO,
 )
+
+if __name__ == "__main__":
+    logging.info("This is a test log message")
