@@ -24,7 +24,7 @@ class DataIngestion:
         logging.info("Data Ingestion Started!")
         
         try:
-            data=pd.read_csv("Notebook_Repository\\Data\\gemstone.csv")
+            data = pd.read_csv('Notebook/Data/gemstone.csv')
             logging.info("Read the data from CSV file")
             
             os.makedirs(os.path.dirname(os.path.join(self.ingestion_config.raw_data_path)), exist_ok=True)
@@ -52,6 +52,10 @@ class DataIngestion:
             logging.info("Exception occured during data ingestion")
             
             raise CustomException(e,sys)
+        
+if __name__=="__main__":
+    obj=DataIngestion()
+    obj.initiate_data_ingestion()
     
 
 
