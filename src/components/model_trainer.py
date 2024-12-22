@@ -36,12 +36,7 @@ class ModelTrainer:
             
             models={
             "Linear Regression": LinearRegression(),
-            "Ridge": Ridge(),
-            "Lasso": Lasso(),
             "Random Forest Regressor": RandomForestRegressor(),
-            "Support Vector Regressor": SVR(kernel='linear'),
-            "ADABoost Regressor": AdaBoostRegressor(),
-            "K Neighbors Regressor": KNeighborsRegressor(),
             "Decision Tree Regressor": DecisionTreeRegressor(),
             "Gradient Boost Regressor": GradientBoostingRegressor()
             }
