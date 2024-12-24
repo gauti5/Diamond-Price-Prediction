@@ -23,3 +23,6 @@ There are 10 independent variables (including id):
 
 Target variable:
 price: Price of the given Diamond.
+
+
+![image](https://github.com/user-attachments/assets/e56ceb04-c520-4805-bd6f-eb238ffed08f)
