@@ -24,5 +24,9 @@ There are 10 independent variables (including id):
 Target variable:
 price: Price of the given Diamond.
 
-
+## Input : 
 ![image](https://github.com/user-attachments/assets/e56ceb04-c520-4805-bd6f-eb238ffed08f)
+
+## Prediction : 
+
+![image](https://github.com/user-attachments/assets/eab5e3fd-b7de-487c-8ff0-b840e8b8b00a)
